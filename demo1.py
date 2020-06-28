@@ -44,6 +44,26 @@ print(name)
 """
 练习：通过代码获取两段内容，并且计算它们的长度的和
 """
-a = input("请输入内容1：")
-b = input("请输入内容2：")
-print("两段内容长度的和：",len(a)+len(b))  
+
+# a = input("请输入内容1：")
+# b = input("请输入内容2：")
+# print("两段内容长度的和：",len(a)+len(b))  
+
+
+#元组,下标：从0开始编号
+a = (1,2,3,4,"哈哈哈哈","llalalal",True,False,"dasdaf",32423)
+
+
+#切片
+print(a[6])
+print(a[0:4])#左闭右开（区间）
+print(a[9:])
+
+#查找下标,如果有很多个下标的时候，那么会从左往右输出最近的一个
+# print(a.index("llalalal"))
+# print(a.count(1))
+
+
+# #二维元组
+# b = (a,"丽丽","楷楷")
+# print(b[0][4])
